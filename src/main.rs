@@ -5,8 +5,6 @@ use std::io::BufReader;
 use std::io::BufRead;
 use substring::Substring;
 
-//no PartialEq because of Box
-//no copy if vec
 #[derive(Default, Clone)]
 enum Word {
 	#[default]
